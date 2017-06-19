@@ -2,16 +2,41 @@
 using namespace std;
 
 
-class shelve {
-
-  int book() {
-
-
-}
-
-
-
+class drawer {
+  public:               // can be accesed from outside of the class
+  void open () {
+    if (state == true) {
+     cout << "it is already open" << endl;
+   }
+   else {
+     cout << "swish it is open" << endl;
+    state = true
+    }
+  }
+  void close () {
+    if (state == false) {
+      cout << "it is already closed" << endl;
+    }
+    else {
+      cout << "swish it is closed" << endl;
+      state = false
+    }
+  } 
+  private:              // can only be accesed from inside the class
+  bool state;
+};                    // notice semicolen
 int main() {
-
-
+  drawer THE_SUCC();
+  int x = 1;
+  string input = succ;
+  while (1 = x) {
+  cin >> input
+  if (input == break) 
+    break;
+  if (input == close)
+    THE_SUCC.close;          //notice period
+  if (input == open)
+    THE_SUCC.open;
+  input = succ
+  }
 }
