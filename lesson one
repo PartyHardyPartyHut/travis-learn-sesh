@@ -6,7 +6,7 @@ class drawer {
 
   public:               // can be accesed from outside of the class
   
-  void open () {
+  void open () {         //action of object
   
     if (state == true) {
      cout << "it is already open" << endl;
@@ -18,14 +18,14 @@ class drawer {
     }
     
   }
-  void close () {
+  void close () {       //action of object
     if (state == false) {
       cout << "it is already closed" << endl;
     }
     
     else {
       cout << "swish it is closed" << endl;
-      state = false
+      state = false                //whether it is opne or close
     }
     
   } 
@@ -37,7 +37,7 @@ class drawer {
 };                    // notice semicolen
 
 int main() {
-  drawer THE_SUCC();
+  drawer THE_SUCC();       //creating the object
   int x = 1;
   string input = succ;
   
